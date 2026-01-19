@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorize as notas na guitarra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Memorize as notas na guitarra</h1>
+
+    <div class="dashboard">
+        <span class="label">Ache a nota:</span>
+        <span id="target" class="target-note">C</span>
+        
+        <div class="controls">
+            <button onclick="nextNote()">Pular</button>
+            <button onclick="resetStats()">Reiniciar</button>
+        </div>
+
+        <div id="msg"></div>
+
+        <div class="stats">
+            <span>Acertos: <b id="score">0</b></span>
+            <span>Precisão: <b id="accuracy">0%</b></span>
+        </div>
+    </div>
+
+    <div id="fretboard-wrapper">
+        <div id="fretboard"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
