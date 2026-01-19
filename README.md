@@ -12,4 +12,12 @@ Este projeto é uma ferramenta simples que criei para praticar a localização d
 Usei HTML para a estrutura, CSS para o visual e JavaScript para toda a lógica de funcionamento e geração de som. Não utilizei arquivos de áudio externos, o som é gerado pelo próprio navegador.
 
 ## Como rodar
+
 Basta baixar os arquivos e abrir o index.html no seu navegador.
+
+## Melhorias Futuras
+- Criar um modo de "Desafio por Tempo".
+- Implementar diferentes afinações (Drop D, Meio tom abaixo).
+- Adicionar um metrônomo visual para ajudar no ritmo.
+- Exercícios de escalas
+- Implementação de som mais parecido com o de uma guitarra
